@@ -33,6 +33,3 @@ ipc.connectTo(
   }
 );
 
-ipc.of[socketId].emit('message', { action: 'refresh', image: '/Users/toby/Desktop/multicolor.png' });
-
-ipc.of[socketId].emit('message', { action: 'refresh', image: '/media/psf/Home/Desktop/multicolor.png' });
